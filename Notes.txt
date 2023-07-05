@@ -2,3 +2,11 @@ Declarative Approach
 
 
 index.js first file to execute
+
+just adding custom HTML element and nothing else
+
+Props means pass the data 
+
+we use parameters to pass data into the function
+
+in the expense with the props if you want to pass the data of key value pair at once so just add the <name> like expense (easy name) and pass the data at once by using the {props.expense.title} and in the app.js  file expense={expenses[3]} this is called the array value in the expenses[3] means this is the 3rd value of the key-value pair in the array. 

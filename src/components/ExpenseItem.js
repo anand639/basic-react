@@ -4,7 +4,7 @@ import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
 	return (
-		<div className="expense-item">
+		<Card className="expense-item">
 			<ExpenseDate date={props.date} />
 			{/* <div>{props.expense.date.toISOString()}</div> */}
 			{/* above prop is all about that we are adding the data at once to app  */}
@@ -17,7 +17,7 @@ function ExpenseItem(props) {
 				{/* <div className="expense-item__price">${props.expense.amount}</div> */}
 				<div className="expense-item__price">${props.amount}</div>
 			</div>
-		</div>
+		</Card>
 	);
 }
 
